@@ -169,6 +169,8 @@ fimalgoritmo
 **08 - Fazer um programa para ler um número natural N (valor máximo: 15), e depois
 calcular e mostrar o fatorial de N.**
 
+resposta em breve!!!
+
 
 
 
@@ -189,6 +191,8 @@ quantidade de cobaias utilizadas e uma letra ('C', 'R' ou 'S'), indicando o tipo
 de cada tipo de cobaia utilizada e o percentual de cada uma em relação ao total de
 cobaias utilizadas, sendo que o percentual deve ser apresentado com dois dígitos
 após o ponto.**
+
+resposta em breve!!!
 
 
 
