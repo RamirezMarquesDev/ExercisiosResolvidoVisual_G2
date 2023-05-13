@@ -169,14 +169,24 @@ fimalgoritmo
 **08 - Fazer um programa para ler um número natural N (valor máximo: 15), e depois
 calcular e mostrar o fatorial de N.**
 
-resposta em breve!!!
-
-
-
-
-
-
-
+```algoritmo "exercisio_para8"
+var
+   i,n,fat : inteiro
+inicio
+      fat<-1
+      escreval ("Digite o Valor de N: ")
+      leia (n)
+      
+      se (n<0) ou (n>15) entao
+        escreval ("Número inválido")
+         senao
+           para i de n ate 1 passo -1 faca
+               fat <- fat*i
+           fimpara
+           escreva (fat)
+      fimse
+fimalgoritmo
+```
 
 **09 - Maria acabou de iniciar seu curso de graduação na faculdade de medicina e
 precisa de sua ajuda para organizar os experimentos de um laboratório o qual ela é
@@ -193,6 +203,42 @@ cobaias utilizadas, sendo que o percentual deve ser apresentado com dois dígito
 após o ponto.**
 
 resposta em breve!!!
+
+```algoritmo "exercisio_para9"
+var
+   n,totalcob,i,qtdc:inteiro
+   tipoc: caractere
+   tr,ts,tc,totalr,totals,totalc: real
+inicio
+     escreval("Quantos casos de Testes? ")
+     leia (n)
+     para i de 1 ate n faca
+          escreval ("Quantidade de Cobaias? ")
+          leia (qtdc)
+          escreval("tipo de Cobaia? ")
+          leia (tipoc)
+          totalcob <- qtdc + totalcob
+          escolha tipoc
+             caso "R"
+             totalr  <- qtdc + totalr
+             caso "S"
+             totals <- qtdc + totals
+             caso "C"
+             totalc <- qtdc + totalc
+          fimescolha
+     fimpara
+     escreval("Total: ", totalcob , "cobaias")
+     escreval("Total de Ratos: ", totalr)
+     escreval("Total de Sapos: ",totals)
+     escreval("Total de Coelhos: ", totalc)
+
+     escreval("Percentual de Ratos: ",totalr/totalcob*100:2:2)
+     escreval("Percentual de Sapos: ",totals/totalcob*100:2:2)
+     escreval("Percentual de Coelhos: ", totalc/totalcob*100:2:2)
+fimalgoritmo
+```
+
+# **Fim Da Lista!!**
 
 
 
